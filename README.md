@@ -3,7 +3,7 @@
 > Install [skillZs](https://skillzs.dev) catalog entries into Claude Code, Codex, or Cursor with one command.
 
 ```bash
-npx skillzs install pr-review
+npx github:CarlosJunioor/skillzs-cli install pr-review
 ```
 
 skillzs detects your AI runtime (`~/.claude`, `~/.codex`, `~/.cursor`) and writes the skill's `SKILL.md` into its `skills/<slug>/` directory. Reload your runtime and the skill is live.
@@ -13,15 +13,15 @@ skillzs detects your AI runtime (`~/.claude`, `~/.codex`, `~/.cursor`) and write
 No global install needed — every command runs through `npx`:
 
 ```bash
-npx skillzs install <slug>
+npx github:CarlosJunioor/skillzs-cli install <slug>
 ```
 
 ## Commands
 
 ```text
-skillzs install <slug>             install one skill
-skillzs --version                  print version
-skillzs --help                     print help
+install <slug>             install one skill
+--version                  print version
+--help                     print help
 ```
 
 ### `install` options
