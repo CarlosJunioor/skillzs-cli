@@ -1,0 +1,34 @@
+{
+  "name": "skillzs",
+  "version": "0.1.0",
+  "description": "Install skillZs catalog entries into Claude Code, Codex, or Cursor.",
+  "type": "module",
+  "bin": {
+    "skillzs": "./bin/skillzs.mjs"
+  },
+  "files": [
+    "bin",
+    "lib",
+    "README.md"
+  ],
+  "engines": {
+    "node": ">=18.17"
+  },
+  "scripts": {
+    "test": "node --test test/*.test.mjs"
+  },
+  "keywords": [
+    "claude",
+    "codex",
+    "cursor",
+    "skills",
+    "agents",
+    "skillzs"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/CarlosJunioor/skillzs-cli.git"
+  },
+  "homepage": "https://skillzs.dev"
+}
